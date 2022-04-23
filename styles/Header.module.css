@@ -1,0 +1,52 @@
+.header {
+    margin: 30px auto;
+    padding: 20px 20px;
+    border: 3px solid hsl(217, 16%, 45%);
+    border-radius: 15px;
+    width: 80%;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 245px;
+  }
+  
+  .advTitle {
+    font-size: 20px;
+  }
+  
+  .scoreContainer {
+    background: white;
+    color: hsl(229, 25%, 31%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .scoreTitle {
+    font-size: 15px;
+  }
+  
+  .score {
+      font-size: 40px;
+  }
+
+  @media screen and (min-width: 500px) {
+    .header {
+        width: 70%;
+        font-size: 22px;
+      }
+
+      .scoreContainer {
+        width: 150px;
+      }
+
+      .score {
+          font-size: 55px;
+      }
+  }
