@@ -1,0 +1,55 @@
+.rules {
+  background: white;
+  padding: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.rulesHeader {
+  color: hsl(229, 25%, 31%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 80%;
+  position: absolute;
+  margin: 10px auto;
+}
+
+.rulesImage {
+  height: 50%;
+  display: grid;
+  margin-top: 100px;
+  width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+  .rules {
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding-top: 5px;
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 450px;
+    min-height: 400px;
+    display: block;
+  }
+
+  .rulesHeader {
+    color: hsl(229, 25%, 31%);
+    flex-direction: row;
+    height: 0%;
+    position: static;
+    margin: 30px auto;
+  }
+
+  .rulesImage {
+    height: 83%;
+    margin-top: 0px;
+  }
+}
