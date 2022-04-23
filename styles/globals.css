@@ -42,3 +42,123 @@ footer div {
   color: white;
   border-radius: 5px;
 }
+
+.scissors,
+.scissors2 {
+  grid-area: scissors;
+  border: 10px solid hsl(40, 84%, 53%);
+}
+
+.paper,
+.paper2 {
+  grid-area: paper;
+  border: 10px solid hsl(230, 89%, 65%);
+}
+
+.rock,
+.rock2 {
+  grid-area: rock;
+  border: 10px solid hsl(349, 70%, 56%);
+}
+
+.lizard2 {
+  grid-area: lizard;
+  border: 10px solid hsl(261, 72%, 63%);
+}
+
+.spock2 {
+  grid-area: spock;
+  border: 10px solid hsl(189, 58%, 57%);
+}
+
+.lizard2,
+.spock2,
+.scissors2,
+.paper2,
+.rock2,
+.scissors,
+.paper,
+.rock {
+  background: white;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.lizard2,
+.spock2 {
+  margin-bottom: 50px;
+}
+
+.rock2 {
+  margin-left: 120px;
+}
+
+.paper2 {
+  margin-right: 120px;
+}
+
+.rock,
+.scissors {
+  margin-top: -50px;
+}
+
+@media screen and (min-width: 800px) {
+  .scissors,
+  .scissors2 {
+    grid-area: scissors;
+    border: 20px solid hsl(40, 84%, 53%);
+  }
+
+  .paper,
+  .paper2 {
+    grid-area: paper;
+    border: 20px solid hsl(230, 89%, 65%);
+  }
+
+  .rock,
+  .rock2 {
+    grid-area: rock;
+    border: 20px solid hsl(349, 70%, 56%);
+  }
+
+  .lizard2 {
+    grid-area: lizard;
+    border: 20px solid hsl(261, 72%, 63%);
+  }
+
+  .spock2 {
+    grid-area: spock;
+    border: 20px solid hsl(189, 58%, 57%);
+  }
+
+  .lizard2,
+  .spock2,
+  .scissors2,
+  .paper2,
+  .rock2,
+  .scissors,
+  .paper,
+  .rock {
+    background: white;
+    padding: 15px;
+    border-radius: 50%;
+  }
+
+  .lizard2,
+  .spock2 {
+    margin-bottom: 50px;
+  }
+
+  .rock2 {
+    margin-left: 120px;
+  }
+
+  .paper2 {
+    margin-right: 120px;
+  }
+
+  .rock,
+  .scissors {
+    margin-top: -50px;
+  }
+}
