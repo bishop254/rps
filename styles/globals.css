@@ -30,45 +30,45 @@ footer {
   display: flex;
   justify-content: space-between;
   position: fixed;
-  bottom: 5px;
-  padding: 10px 10px;
+  bottom: 6px;
+  padding: 6px 6px;
   width: 100%;
   letter-spacing: 1px;
 }
 
 footer div {
   border: 1px solid white;
-  padding: 5px 20px;
+  padding: 6px 20px;
   color: white;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 .scissors,
 .scissors2 {
   grid-area: scissors;
-  border: 10px solid hsl(40, 84%, 53%);
+  border: 15px solid hsl(40, 84%, 53%);  
 }
 
 .paper,
 .paper2 {
   grid-area: paper;
-  border: 10px solid hsl(230, 89%, 65%);
+  border: 15px solid hsl(230, 89%, 65%);
 }
 
 .rock,
 .rock2 {
   grid-area: rock;
-  border: 10px solid hsl(349, 70%, 56%);
+  border: 15px solid hsl(349, 70%, 56%);
 }
 
 .lizard2 {
   grid-area: lizard;
-  border: 10px solid hsl(261, 72%, 63%);
+  border: 15px solid hsl(261, 72%, 63%);
 }
 
 .spock2 {
   grid-area: spock;
-  border: 10px solid hsl(189, 58%, 57%);
+  border: 15px solid hsl(189, 58%, 57%);
 }
 
 .lizard2,
@@ -80,13 +80,13 @@ footer div {
 .paper,
 .rock {
   background: white;
-  padding: 15px;
+  padding: 10px;
   border-radius: 50%;
 }
 
 .lizard2,
 .spock2 {
-  margin-bottom: 50px;
+  margin-bottom: 90px;
 }
 
 .rock2 {
@@ -101,64 +101,112 @@ footer div {
 .scissors {
   margin-top: -50px;
 }
+.scissors2 {
+  margin-top: -10px;
+}
 
-@media screen and (min-width: 800px) {
-  .scissors,
-  .scissors2 {
-    grid-area: scissors;
-    border: 20px solid hsl(40, 84%, 53%);
-  }
+@media screen and (max-width: 700px) {
 
-  .paper,
-  .paper2 {
-    grid-area: paper;
-    border: 20px solid hsl(230, 89%, 65%);
-  }
-
-  .rock,
-  .rock2 {
-    grid-area: rock;
-    border: 20px solid hsl(349, 70%, 56%);
-  }
-
-  .lizard2 {
-    grid-area: lizard;
-    border: 20px solid hsl(261, 72%, 63%);
+  .lizard2, .spock2 {
+    margin-right: 60px;
+    margin-left: auto;
   }
 
   .spock2 {
-    grid-area: spock;
-    border: 20px solid hsl(189, 58%, 57%);
+    margin-left: 60px;
+    margin-right: auto;
+
+  }
+  
+  .rock2 {
+    margin-left: 0;
+  }
+  
+  .paper2 {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+   .lizard2 {
+    margin-right: 0px;
   }
 
-  .lizard2,
-  .spock2,
-  .scissors2,
-  .paper2,
-  .rock2,
-  .scissors,
-  .paper,
-  .rock {
-    background: white;
-    padding: 15px;
-    border-radius: 50%;
+  .spock2 {
+    margin-left: 0px;
   }
 
   .lizard2,
   .spock2 {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
   }
 
   .rock2 {
-    margin-left: 120px;
+    margin-left: 0px;
   }
 
   .paper2 {
-    margin-right: 120px;
+    margin-right: 0px;
   }
 
   .rock,
   .scissors {
-    margin-top: -50px;
+    margin-bottom: auto;
+    margin-top: -45px
+  }
+
+  .rock {
+    margin-left: auto;
+  }
+
+  .scissors {
+    margin-right: auto;
+  }
+
+  .paper {
+    margin-top: 75px;
+  }
+}
+
+@media screen and (max-width: 372px) {
+ 
+
+  .scissors,
+  .scissors2 {
+    border: 8px solid hsl(40, 84%, 53%);
+  }
+
+  .paper,
+  .paper2 {
+    border: 8px solid hsl(230, 89%, 65%);
+  }
+
+  .rock,
+  .rock2 {
+    border: 8px solid hsl(349, 70%, 56%);
+  }
+
+  .lizard2 {
+    border: 8px solid hsl(261, 72%, 63%);
+  }
+
+  .spock2 {
+    border: 8px solid hsl(189, 58%, 57%);
+  }
+
+
+  .lizard2,
+  .spock2 {
+    margin-bottom: 30px;
+  }
+
+  .rock,
+  .scissors {
+    margin-top: -90px
+  }
+
+  .paper {
+    margin-bottom: -80px;
   }
 }
