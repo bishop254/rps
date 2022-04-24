@@ -9,7 +9,7 @@ const GameMode = ({ mode }) => {
     (option) => gameOptions.indexOf(option) % 2 === 0
   );
 
-  const openPlay = () => {
+  const openPlay = (option) => {
       console.log('Hello')
   }
 
