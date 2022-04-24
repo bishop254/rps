@@ -24,10 +24,10 @@ npm run dev
 #### Main Display
 ![Main Display](https://github.com/bishop254/rps/blob/main/public/preview/mainPage.JPG)
 ---
-![Main Display](/public/preview/mainPage1.jpg)
+![Main Display](https://github.com/bishop254/rps/blob/main/public/preview/mainPage1.JPG)
 
 #### Rules Modal
-![Main Display](/public/preview/rules.jpg)
+![Main Display](https://github.com/bishop254/rps/blob/main/public/preview/rules.JPG)
 
 #### Play Page
-![Main Display](/public/preview/play.jpg)
+![Main Display](https://github.com/bishop254/rps/blob/main/public/preview/play.JPG)
