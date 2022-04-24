@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import styles from "../styles/Header.module.css";
+import { ContProvider } from "../Context/Context";
+
 
 const Header = ({ mode }) => {
+  const { pickedChoices } = useContext(ContProvider);
+
   let normalMode = ["SCISSORS", "PAPER", "ROCK"];
   let advancedMode = ["LIZARD", "SPOCK"];
 
@@ -16,7 +20,7 @@ const Header = ({ mode }) => {
         </div>
         <div className={styles.scoreContainer}>
           <div className={styles.scoreTitle}>SCORE</div>
-          <div className={styles.score}>{0}</div>
+          <div className={styles.score}>{pickedChoices.score}</div>
         </div>
       </div>
     </>
