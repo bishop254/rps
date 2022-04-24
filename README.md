@@ -22,7 +22,7 @@ npm run dev
 
 ## Preview
 #### Main Display
-![Main Display](/public/preview/mainPage.jpg)
+![Main Display](https://github.com/bishop254/rps/blob/main/public/preview/mainPage.JPG)
 ---
 ![Main Display](/public/preview/mainPage1.jpg)
 
